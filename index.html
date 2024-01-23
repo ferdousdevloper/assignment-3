@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- FONT AWESOME LINKED -->
+    <script src="https://kit.fontawesome.com/31ffa345aa.js" crossorigin="anonymous"></script>
     <!-- TAILWIND CSS LINKED -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- DAISY UI LINKED -->
@@ -37,13 +39,14 @@
     <style>
         * {
             font-family: 'Manrope', sans-serif;
+            scroll-behavior: smooth;
         }
     </style>
 </head>
 
-<body class="mx-5 md:container md:mx-auto">
+<body class="">
     <!-- HEADER SECTION START -->
-    <header class=" mt-5">
+    <header class="mx-5 lg:container lg:mx-auto mt-5">
         <div class="navbar">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -78,14 +81,14 @@
             </div>
             <div class="navbar-end">
                 <div class=""><a href="#"><img class=" mr-6 hidden lg:block" src="Images/search.svg" alt=""></a></div>
-                <a class="btn bg-redton text-white hover:bg-green-800 tras duration-500">Get Ticket</a>
+                <a class="btn bg-redton text-white hover:bg-green-500 duration-500 ">Get Ticket</a>
             </div>
         </div>
 
     </header>
     <!-- HEADER SECTION END -->
     <!-- BANNER SECTION START -->
-    <section class="mt-14 lg:mb-24 mb-10">
+    <section class="mx-5 lg:container lg:mx-auto mt-14 lg:mb-24 mb-10">
         <div class="relative">
             <div class="carousel relative w-full">
                 <div id="slide1" class="carousel-item  w-full">
@@ -124,7 +127,7 @@
                 </div>
 
             </div>
-            <div class="lg:absolute bg-[#131318] p-8 rounded-2xl max-w-[500px] right-[32px] bottom-[32px] mt-4">
+            <div class="lg:absolute bg-[#131318] p-8 rounded-2xl max-w-[500px] right-[32px] bottom-[32px] mt-4 hover:shadow-xl hover:shadow-black duration-700">
                 <h3 class="text-2xl font-extrabold text-white mb-4">Meet all the heroes from the field</h3>
                 <p class="text-[#ffffff99] text-base font-medium leading-7">Hockey games, a fusion of power and
                     finesse,
@@ -136,7 +139,7 @@
 
     </section>
     <!-- BANNER SECTION END -->
-    <main>
+    <main class="mx-5 lg:container lg:mx-auto">
         <!-- CLUB SECTION START -->
         <section class="pt-8 border-t-2 pb-8 border-b-2 border-dashed">
             <div class="text-center">
@@ -150,8 +153,9 @@
         <section class="mb-10 lg:mb-24">
             <div class="flex flex-col lg:flex-row items-center justify-evenly mt-12">
                 <div class="text-center">
-                    <div class="radial-progress text-red-500 text-3xl font-extrabold mb-6 "
-                        style="--value:87; --size:12rem; --thickness: 1rem;" role="progressbar">87%</div>
+                    <div class="radial-progress text-red-500 text-3xl font-extrabold mb-6"
+                        style="--value:87; --size:12rem; --thickness: 1rem;" role="progressbar"> <span
+                            class="text-[#131318]">87%</span></div>
                     <div>
                         <h3 class="text-[#131318] text-xl font-semibold">Prayer Facility</h3>
                         <p class="text-[#13131899] text-base leading-7">Hockey games: fast-paced, teamwork, skillful
@@ -159,8 +163,9 @@
                     </div>
                 </div>
                 <div class="text-center mt-6">
-                    <div class="radial-progress text-green-500 text-3xl font-extrabold mb-6"
-                        style="--value:95; --size:12rem; --thickness: 1rem;" role="progressbar">95%</div>
+                    <div class="radial-progress text-green-500 text-3xl font-extrabold mb-6 "
+                        style="--value:95; --size:12rem; --thickness: 1rem;" role="progressbar"><span
+                            class="text-[#131318]">95%</span></div>
                     <div>
                         <h3 class="text-[#131318] text-xl font-semibold">Experienced Coach</h3>
                         <p class="text-[#13131899] text-base leading-7">Exciting hockey matches showcase precision,
@@ -169,7 +174,8 @@
                 </div>
                 <div class="text-center mt-6">
                     <div class="radial-progress text-amber-500 text-3xl font-extrabold mb-6"
-                        style="--value:90; --size:12rem; --thickness: 1rem;" role="progressbar">90%</div>
+                        style="--value:90; --size:12rem; --thickness: 1rem;" role="progressbar"><span
+                            class="text-[#131318]">90%</span></div>
                     <div>
                         <h3 class="text-[#131318] text-xl font-semibold">Senior Player</h3>
                         <p class="text-[#13131899] text-base leading-7">Icy arenas host exhilarating hockey clashes,
@@ -178,7 +184,8 @@
                 </div>
                 <div class="text-center mt-6  ">
                     <div class="radial-progress text-blue-500 text-3xl font-extrabold mb-6"
-                        style="--value:80; --size:12rem; --thickness: 1rem;" role="progressbar">80%</div>
+                        style="--value:80; --size:12rem; --thickness: 1rem;" role="progressbar"><span
+                            class="text-[#131318]">80%</span></div>
                     <div>
                         <h3 class="text-[#131318] text-xl font-semibold">Training Ground</h3>
                         <p class="text-[#13131899] text-base leading-7">Intense battles unfold in hockey games,
@@ -202,7 +209,7 @@
         <!-- PROGRAM GALLERY SECTION START-->
         <section class="mb-10 lg:mb-24">
             <div class="grid lg:grid-cols-12 lg:grid-rows-12 gap-6">
-                <div class="lg:col-span-6 lg:row-span-6 ">
+                <div class="lg:col-span-6 lg:row-span-6  hover:shadow-xl hover:shadow-black duration-700 rounded-2xl">
                     <div class="hero  rounded-2xl" style="background-image: url(Images/2.png);">
                         <div class="hero-overlay bg-opacity-60 rounded-2xl brightness-0"></div>
                         <div class="hero-content  text-neutral-content">
@@ -211,13 +218,13 @@
                                 <p class="mb-4 text-base leading-6">Hockey games thrill fans with lightning-fast plays,
                                     powerful shots, and strategic brilliance.Intense rivalries, precise passes, and
                                     iconic goals define the drama on the icy battleground.</p>
-                                <button class="btn bg-redton border-none text-white text-xl font-bold">Register
+                                <button class="btn bg-redton border-none text-white text-xl font-bold hover:bg-green-500 duration-500 ">Register
                                     Now!</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="lg:col-span-6 lg:row-span-6">
+                <div class="lg:col-span-6 lg:row-span-6  hover:shadow-xl hover:shadow-black duration-700 rounded-2xl">
                     <div class="hero rounded-2xl" style="background-image: url(Images/3.png);">
                         <div class="hero-overlay bg-opacity-60 rounded-2xl brightness-0"></div>
                         <div class="hero-content  text-neutral-content">
@@ -226,13 +233,13 @@
                                 <p class="mb-4 text-base leading-6">Hockey games thrill fans with lightning-fast plays,
                                     powerful shots, and strategic brilliance.Intense rivalries, precise passes, and
                                     iconic goals define the drama on the icy battleground.</p>
-                                <button class="btn bg-redton border-none text-white text-xl font-bold">Register
+                                <button class="btn bg-redton border-none text-white text-xl font-bold hover:bg-green-500 duration-500 ">Register
                                     Now!</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="lg:col-span-12 lg:row-span-7 lg:relative mb-6">
+                <div class="lg:col-span-12 lg:row-span-7 lg:relative mb-6 hover:shadow-xl hover:shadow-black duration-700 rounded-2xl">
                     <div class="hero min-h-full rounded-2xl" style="background-image: url(Images/4.png);">
                         <div class="hero-overlay bg-opacity-60 rounded-2xl brightness-0"></div>
                         <div class="hero-content  text-neutral-content">
@@ -241,7 +248,7 @@
                                 <p class="mb-4 text-base leading-6">Hockey games thrill fans with lightning-fast plays,
                                     powerful shots, and strategic brilliance.Intense rivalries, precise passes, and
                                     iconic goals define the drama on the icy battleground.</p>
-                                <button class="btn bg-redton border-none text-white text-xl font-bold">Register
+                                <button class="btn bg-redton border-none text-white text-xl font-bold hover:bg-green-500 duration-500 ">Register
                                     Now!</button>
                             </div>
                         </div>
@@ -270,7 +277,7 @@
             <!-- grid -->
             <div class="grid lg:grid-cols-2 gap-6">
                 <!-- card 1-->
-                <div class="border flex flex-col lg:flex-row  gap-5 p-6 rounded-2xl">
+                <div class="border flex flex-col lg:flex-row  gap-5 p-6 rounded-2xl hover:shadow-xl hover:shadow-black duration-700">
                     <!-- flex -->
                     <div class="">
                         <img class="w-full" src="Images/5.png" alt="">
@@ -297,7 +304,8 @@
                         </div>
                         <div>
                             <h3 class=" text-[#131318] text-xl font-extrabold">World Cup Flags Football</h3>
-                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature intense action, skillful plays, and thrilling rivalries.</p>
+                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature
+                                intense action, skillful plays, and thrilling rivalries.</p>
                         </div>
                         <!-- flex -->
                         <div class="lg:flex gap-5">
@@ -311,7 +319,7 @@
                     </div>
                 </div>
                 <!-- card 2-->
-                <div class="border flex flex-col lg:flex-row gap-5 p-6 rounded-2xl">
+                <div class="border flex flex-col lg:flex-row gap-5 p-6 rounded-2xl  hover:shadow-xl hover:shadow-black duration-700">
                     <!-- flex -->
                     <div class="">
                         <img class="w-full" src="Images/6.png" alt="">
@@ -338,7 +346,8 @@
                         </div>
                         <div>
                             <h3 class=" text-[#131318] text-xl font-extrabold">World Cup Flags Football</h3>
-                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature intense action, skillful plays, and thrilling rivalries.</p>
+                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature
+                                intense action, skillful plays, and thrilling rivalries.</p>
                         </div>
                         <!-- flex -->
                         <div class="lg:flex gap-5">
@@ -352,7 +361,7 @@
                     </div>
                 </div>
                 <!-- card 3-->
-                <div class="border flex flex-col lg:flex-row gap-5 p-6 rounded-2xl">
+                <div class="border flex flex-col lg:flex-row gap-5 p-6 rounded-2xl  hover:shadow-xl hover:shadow-black duration-700">
                     <!-- flex -->
                     <div class="">
                         <img class="w-full" src="Images/7.png" alt="">
@@ -379,7 +388,8 @@
                         </div>
                         <div>
                             <h3 class=" text-[#131318] text-xl font-extrabold">Cap For Hockeys</h3>
-                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature intense action, skillful plays, and thrilling rivalries.</p>
+                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature
+                                intense action, skillful plays, and thrilling rivalries.</p>
                         </div>
                         <!-- flex -->
                         <div class="lg:flex gap-5">
@@ -393,7 +403,7 @@
                     </div>
                 </div>
                 <!-- card 4-->
-                <div class="border  flex flex-col lg:flex-row gap-5 p-6 rounded-2xl">
+                <div class="border  flex flex-col lg:flex-row gap-5 p-6 rounded-2xl  hover:shadow-xl hover:shadow-black duration-700">
                     <!-- flex -->
                     <div class="">
                         <img class="w-full" src="Images/8.png" alt="">
@@ -420,7 +430,8 @@
                         </div>
                         <div>
                             <h3 class=" text-[#131318] text-xl font-extrabold">World Cup Flags Football</h3>
-                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature intense action, skillful plays, and thrilling rivalries.</p>
+                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature
+                                intense action, skillful plays, and thrilling rivalries.</p>
                         </div>
                         <!-- flex -->
                         <div class="lg:flex gap-5">
@@ -434,7 +445,7 @@
                     </div>
                 </div>
                 <!-- card 5-->
-                <div class="border flex flex-col lg:flex-row gap-5 p-6 rounded-2xl">
+                <div class="border flex flex-col lg:flex-row gap-5 p-6 rounded-2xl  hover:shadow-xl hover:shadow-black duration-700">
                     <!-- flex -->
                     <div class="">
                         <img class="w-full" src="Images/9.png" alt="">
@@ -461,7 +472,8 @@
                         </div>
                         <div>
                             <h3 class=" text-[#131318] text-xl font-extrabold">World Cup Flags Football</h3>
-                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature intense action, skillful plays, and thrilling rivalries.</p>
+                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature
+                                intense action, skillful plays, and thrilling rivalries.</p>
                         </div>
                         <!-- flex -->
                         <div class="lg:flex gap-5">
@@ -475,7 +487,7 @@
                     </div>
                 </div>
                 <!-- card 6-->
-                <div class="border flex flex-col lg:flex-row gap-5 p-6 rounded-2xl">
+                <div class="border flex flex-col lg:flex-row gap-5 p-6 rounded-2xl  hover:shadow-xl hover:shadow-black duration-700">
                     <!-- flex -->
                     <div class="">
                         <img class="w-full" src="Images/10.png" alt="">
@@ -502,7 +514,8 @@
                         </div>
                         <div>
                             <h3 class=" text-[#131318] text-xl font-extrabold">World Cup Flags Football</h3>
-                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature intense action, skillful plays, and thrilling rivalries.</p>
+                            <p class="text-[#13131899] text-base font-medium leading-6 mb-5">Hockey games feature
+                                intense action, skillful plays, and thrilling rivalries.</p>
                         </div>
                         <!-- flex -->
                         <div class="lg:flex gap-5">
@@ -522,74 +535,83 @@
         <section class="pt-8 border-t-2 pb-8 border-b-2 border-dashed mb-12">
             <div class="text-center">
                 <h3 class="text-[#131318] text-4xl font-extrabold mb-6">Clients Question</h3>
-                <p class="text[#13131899] text-base font-medium leading-7">Hockey games deliver an electrifying spectacle with dynamic plays, precise passes, and fierce competition. <br> Skaters showcase agility, power, and strategic brilliance, creating unforgettable moments in the exhilarating ice-bound sport.</p>
+                <p class="text[#13131899] text-base font-medium leading-7">Hockey games deliver an electrifying
+                    spectacle with dynamic plays, precise passes, and fierce competition. <br> Skaters showcase agility,
+                    power, and strategic brilliance, creating unforgettable moments in the exhilarating ice-bound sport.
+                </p>
             </div>
         </section>
         <!-- CLIENTS QUESTION DESCRIPTION SECTION END-->
         <!-- CLIENTS QUESTION SECTION START-->
         <section class="mb-10 lg:mb-24">
             <!-- flex -->
-            <div class="flex lg:flex-row flex-col justify-evenly items-center gap-10   border rounded-2xl ">
-                <div>
+            <div class="flex lg:flex-row flex-col justify-evenly items-center gap-10 p-5  border rounded-2xl ">
+                <div class="hover:shadow-xl hover:shadow-black duration-700 rounded-2xl">
                     <img src="Images/11.png" alt="">
                 </div>
                 <div class="">
                     <div class="collapse collapse-plus border-b rounded-none mb-6 max-w-[570px]">
-                      <input type="radio" name="my-accordion-3" checked="checked" />
-                      <div class="collapse-title text-xl font-bold">
-                        Our Equipment
-                      </div>
-                      <div class="collapse-content">
-                        <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing hockey's allure</p>
-                      </div>
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-bold">
+                            Our Equipment
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing
+                                hockey's allure</p>
+                        </div>
                     </div>
                     <div class="collapse collapse-plus border-b rounded-none mb-6 max-w-[570px]">
-                      <input type="radio" name="my-accordion-3" />
-                      <div class="collapse-title text-xl font-bold">
-                        Hockey Training
-                      </div>
-                      <div class="collapse-content">
-                        <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing hockey's allure</p>
-                      </div>
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Hockey Training
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing
+                                hockey's allure</p>
+                        </div>
                     </div>
                     <div class="collapse collapse-plus border-b rounded-none mb-6 max-w-[570px]">
-                      <input type="radio" name="my-accordion-3" />
-                      <div class="collapse-title text-xl font-bold">
-                        Private Lessons
-                      </div>
-                      <div class="collapse-content">
-                        <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing hockey's allure</p>
-                      </div>
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing
+                                hockey's allure</p>
+                        </div>
                     </div>
                     <div class="collapse collapse-plus border-b rounded-none mb-6 max-w-[570px]">
-                      <input type="radio" name="my-accordion-3" />
-                      <div class="collapse-title text-xl font-bold">
-                        Ski Touring
-                      </div>
-                      <div class="collapse-content">
-                        <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing hockey's allure</p>
-                      </div>
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing
+                                hockey's allure</p>
+                        </div>
                     </div>
                     <div class="collapse collapse-plus border-b rounded-none mb-6 max-w-[570px]">
-                      <input type="radio" name="my-accordion-3" />
-                      <div class="collapse-title text-xl font-bold">
-                        Booking
-                      </div>
-                      <div class="collapse-content">
-                        <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing hockey's allure</p>
-                      </div>
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Booking
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing
+                                hockey's allure</p>
+                        </div>
                     </div>
                     <div class="collapse collapse-plus border-b rounded-none mb-6 max-w-[570px]">
-                      <input type="radio" name="my-accordion-3" />
-                      <div class="collapse-title text-xl font-bold">
-                        Pricing
-                      </div>
-                      <div class="collapse-content">
-                        <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing hockey's allure</p>
-                      </div>
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-bold">
+                            Pricing
+                        </div>
+                        <div class="collapse-content">
+                            <p class="text-[#13131899]">Icy arenas echo with cheers for the dramatic clashes, showcasing
+                                hockey's allure</p>
+                        </div>
                     </div>
-                    
-                  </div>
+
+                </div>
             </div>
 
         </section>
@@ -598,7 +620,8 @@
         <section class="pt-8 border-t-2 pb-8 border-b-2 border-dashed mb-12">
             <div class="text-center">
                 <h3 class="text-[#131318] text-4xl font-extrabold mb-6">Get In Touch</h3>
-                <p class="text[#13131899] text-base font-medium leading-7">From agile skaters to strategic brilliance, hockey games deliver thrilling narratives.</p>
+                <p class="text[#13131899] text-base font-medium leading-7">From agile skaters to strategic brilliance,
+                    hockey games deliver thrilling narratives.</p>
             </div>
         </section>
         <!-- GET IN TOUCH DESCRIPTION SECTION END-->
@@ -608,17 +631,17 @@
             <div class="lg:grid grid-cols-7 gap-6">
                 <div class="border rounded-2xl col-span-3 mb-5">
                     <div class="p-12">
-                        <div class="bg-lime-50 p-11 rounded-2xl mb-6">
+                        <div class="bg-lime-50 p-11 rounded-2xl mb-6 hover:shadow-xl hover:shadow-black duration-700">
                             <img src="Images/phone.png" alt="">
                             <p class="text-[#13131866] text-base leading-8">Phone Number :</p>
                             <p class="text-[#131318] text-lg font-extrabold leading-8">(+62) 123-321-543</p>
                         </div>
-                        <div class="bg-orange-50 p-11 rounded-2xl mb-6">
+                        <div class="bg-orange-50 p-11 rounded-2xl mb-6 hover:shadow-xl hover:shadow-black duration-700">
                             <img src="Images/email.png" alt="">
                             <p class="text-[#13131866] text-base leading-8">Email : </p>
                             <p class="text-[#131318] text-lg font-extrabold leading-8">hockeys@support.com</p>
                         </div>
-                        <div class="bg-blue-50 p-11 rounded-2xl">
+                        <div class="bg-blue-50 p-11 rounded-2xl hover:shadow-xl hover:shadow-black duration-700">
                             <img src="Images/map.png" alt="">
                             <p class="text-[#13131866] text-base leading-8">Location :</p>
                             <p class="text-[#131318] text-lg font-extrabold leading-8">152/1 Mohakhali Wireless Gate</p>
@@ -631,34 +654,119 @@
                     <div class="lg:grid grid-cols-6 gap-6">
                         <div class="col-span-3">
                             <h3 class="text-[#131318] text-xl font-bold mb-4">Your Name</h3>
-                            <input type="text" placeholder="Enter your full name" class="input bg-[#13131805]  w-full h-[64px]" />
+                            <input type="text" placeholder="Enter your full name"
+                                class="input bg-[#13131805]  w-full h-[64px]" />
                         </div>
                         <div class="col-span-3">
                             <h3 class="text-[#131318] text-xl font-bold mb-4">Your Email</h3>
-                            <input type="text" placeholder="Enter your email" class="input bg-[#13131805]  w-full h-[64px]" />
+                            <input type="text" placeholder="Enter your email"
+                                class="input bg-[#13131805]  w-full h-[64px]" />
                         </div>
                         <div class="col-span-3">
                             <h3 class="text-[#131318] text-xl font-bold mb-4">Subject</h3>
-                            <input type="text" placeholder="Enter your subject" class="input bg-[#13131805]  w-full h-[64px]" />
+                            <input type="text" placeholder="Enter your subject"
+                                class="input bg-[#13131805]  w-full h-[64px]" />
                         </div>
                         <div class="col-span-3">
                             <h3 class="text-[#131318] text-xl font-bold mb-4">Phone Number</h3>
-                            <input type="text" placeholder="Enter your phone number" class="input bg-[#13131805] w-full h-[64px]" />
+                            <input type="text" placeholder="Enter your phone number"
+                                class="input bg-[#13131805] w-full h-[64px]" />
                         </div>
                         <div class="col-span-6">
                             <h3 class="text-[#131318] text-xl font-bold mb-4">Message</h3>
-                            <textarea class="textarea bg-[#13131805] w-full h-[370px]" placeholder="Write your message"></textarea>
+                            <textarea class="textarea bg-[#13131805] w-full h-[370px]"
+                                placeholder="Write your message"></textarea>
                         </div>
-                        <button class="btn col-span-6 text-white bg-redton">Send Message</button>
+                        <button class="btn col-span-6 text-white bg-redton w-full hover:bg-green-500 duration-500 ">Send Message</button>
                     </div>
                 </div>
 
             </div>
 
         </section>
-    </main>
-    <footer></footer>
+        <!-- GET IN TOUCH SECTION END-->
+        <!-- SOCIAL MEDIA SECTION START-->
+        <section class="mb-10 lg:mb-24">
+            <div class=" text-center bg-[#13131805] p-9 rounded-2xl shadow-lg">
+                <h3 class="text-[#13131] text-2xl font-extrabold mb-6">Social Media</h3>
+                <div class="text-[#13131] text-2xl font-extrabold mb-6 flex justify-center gap-10 ">
+                    <i class="fa-brands fa-twitter hover:shadow-xl hover:shadow-black duration-700 p-2 rounded-2xl cursor-pointer"></i>
+                    <i class="fa-brands fa-facebook-f hover:shadow-xl hover:shadow-black duration-700 p-2 rounded-2xl cursor-pointer"></i>
+                    <i class="fa-brands fa-instagram hover:shadow-xl hover:shadow-black duration-700 p-2 rounded-2xl cursor-pointer"></i>
+                    <i class="fa-brands fa-github hover:shadow-xl hover:shadow-black duration-700 p-2 rounded-2xl cursor-pointer"></i>
+                </div>
+            </div>
 
+        </section>
+        <!-- SOCIAL MEDIA SECTION START-->
+    </main>
+    <!-- FOOTER SECTION START -->
+    <footer class="bg-[#131318] ">
+
+        <div class="p-10  mx-5 lg:container lg:mx-auto lg:py-[100px]">
+            <!-- flex -->
+            <!-- part-1 -->
+            <div class="lg:flex lg:flex-row flex-col lg:justify-between lg:text-left text-center gap-[158px]">
+                <div class="flex flex-col items-center lg:items-start">
+                    <h2 class="text-white text-3xl font-extrabold mb-4">Get In Touch</h2>
+                    <p class="max-w-[340px] text-[#ffffff99] text-base font-medium leading-7 mb-6">Connect with us for
+                        expert advice, innovative solutions, and personalized support. We're here to enhance your
+                        experience and address your needs promptly. Stay connected for updates and insights.</p>
+                    <!-- flex -->
+                    <div class="flex items-center gap-4 text-redton text-base font-medium mb-4">
+                        <i class="fa-regular fa-envelope"></i>
+                        <span class="text-[#ffffffcc]">hockeys@support.com</span>
+                    </div>
+                    <!-- flex -->
+                    <div class="flex items-center gap-4 text-redton text-base font-medium mb-10">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="text-[#ffffffcc]">(+62) 123-321-543</span>
+                    </div>
+                </div>
+                <!-- part-2 -->
+                <!-- flex -->
+                <div class="grid grid-cols-2 lg:gap-[200px] gap-[50px] mb-10">
+                    <div class="flex flex-col items-center lg:items-start">
+                        <h3 class="text-white text-lg mb-5">Company</h3>
+                        <p class="max-w-[108px] text-[#ffffff99] text-base font-medium leading-10">
+                            About us
+                            Leadership
+                            Careers
+                            News & Article
+                            Legal Notice
+                        </p>
+                    </div>
+                    <div class="flex flex-col items-center lg:items-start">
+                        <h3 class="text-white text-lg mb-5">Support</h3>
+                        <p class="max-w-[108px] text-[#ffffff99] text-base font-medium leading-10">
+                            Help Center
+                            FAQ
+                            Ticket Support
+                            Contact Us
+                        </p>
+                    </div>
+
+                </div>
+                <!-- part-3 -->
+                <div class="flex flex-col items-center lg:items-start">
+                    <h3 class="text-white text-lg mb-5">Services</h3>
+                    <p class="max-w-[108px] text-[#ffffff99] text-base font-medium leading-10">
+                        Academy
+                        Group Lesson
+                        Private Lesson
+                        Hockeys for kids
+                        Hockeys for Adult
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+    <!-- FOOTER SECTION END -->
 </body>
 
 </html>
+
+<!--____________________________________F-I-N-I-S-H-E-D______________________________ -->
